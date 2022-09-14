@@ -23,7 +23,9 @@ app.get('/dev', (req, res) => {
     res.json({
         name: "Pattaraphon",
         surname: "Chantagasorn",
-        email: "pattarapon9741@gmail.com"
+        email: "pattarapon9741@gmail.com",
+        org: "Rambhai Barni Rajabhat University",
+        department: "Network Technology"
     })
 })
 
